@@ -1,15 +1,23 @@
 header {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
+    
 }
 
 header nav {
-    background-color: tomato;
+
+}
+
+header nav ul {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+
+/*Media Query For Smaller Desktop Screens and Smaller */
+@media screen and (max-width: 980px) {
+    header {
+        position: relative;
+    }
 }
