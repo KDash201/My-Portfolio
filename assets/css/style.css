@@ -1,0 +1,15 @@
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    background-color: tomato;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
