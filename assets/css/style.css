@@ -1,19 +1,53 @@
 header {
-    
+    background-color: blueviolet;
+    border-style: groove;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
 }
 
 header nav {
-
+    text-align: right;
+    padding: 0px 50px 0px 50px;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    font-size: larger;
     list-style: none;
 }
 
+.container {
+    
+}
+
+header nav ul li a {
+    
+
+}
+
+.hero {
+    background-color: brown;
+    border-style: groove;
+}
+
+section.run-buddy {
+    background-color: crimson;
+    border-style: groove;
+}
+
+section.project-two {
+    background-color: darkgreen;
+    border-style: groove;
+}
+
+section.project-three {
+    background-color: darkslateblue;
+    border-style: groove;
+}
+
+.navigation-2 {
+    background-color: cyan;
+}
 
 /*Media Query For Smaller Desktop Screens and Smaller */
 @media screen and (max-width: 980px) {
