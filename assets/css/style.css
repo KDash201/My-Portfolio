@@ -1,4 +1,11 @@
-.header {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
     z-index: 99999;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-position: 80%;
@@ -9,6 +16,10 @@
     align-items: center;    
 }
 
+header {
+    text-decoration: none;
+}
+
 header nav {
     text-align: right;
     padding: 0px 50px 0px 50px;
@@ -17,6 +28,11 @@ header nav {
 header nav ul {
     font-size: larger;
     list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
 }
 
 .container {
