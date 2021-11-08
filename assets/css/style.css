@@ -2,15 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
 
 header {
     z-index: 99999;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-position: 80%;
-    background-image: url("../images/Background\ image.jpg");
+    background-image: url("../images/white-background.jpeg");
     border-style: groove;
     display: flex;
     justify-content: space-between;
@@ -34,6 +32,7 @@ header nav ul {
 header nav ul li a {
     text-decoration: none;
     padding: 10px 15px;
+    font-size: 23px;
 }
 
 ul {
@@ -44,24 +43,35 @@ ul {
 }
 
 .hero {
-    background-position: 40%;
-    background-image: url("../images/Background\ image.jpg");
+    background-image: url("../images/white-background.jpeg");
     border-style: groove;
 }
 
 section.run-buddy {
-    background-image: url("../images/Background\ image.jpg");
+    background-image: url("../images/white-background.jpeg");
     background-size: cover;
-    background-color: #D2B48C;
     border-style: groove;
 }
 
+section.run-buddy img {
+    width: 13%;
+}
+
 section.project-two {
+    background-image: url("../images/white-background.jpeg");
     border-style: groove;
 }
 
 section.project-three {
+    background-image: url("../images/white-background.jpeg");
     border-style: groove;
+}
+
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
 }
 
 address {
@@ -75,12 +85,13 @@ address {
 
 section.footer {
     border-style: groove;
+    background-image: url("../images/white-background.jpeg");
 
 }
 
 /*Media Query For Smaller Desktop Screens and Smaller */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 700px) {
     header {
-        position: relative;
+        position: auto;
     }
 }
