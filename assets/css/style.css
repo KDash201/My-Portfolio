@@ -1,5 +1,8 @@
-header {
-    background-color: blueviolet;
+.header {
+    z-index: 99999;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position: 80%;
+    background-image: url("../images/Background\ image.jpg");
     border-style: groove;
     display: flex;
     justify-content: space-between;
@@ -20,33 +23,45 @@ header nav ul {
     
 }
 
-header nav ul li a {
-    
-
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .hero {
-    background-color: brown;
+    background-position: 40%;
+    background-image: url("../images/Background\ image.jpg");
     border-style: groove;
 }
 
 section.run-buddy {
-    background-color: crimson;
+    background-image: url("../images/Background\ image.jpg");
+    background-size: cover;
+    background-color: #D2B48C;
     border-style: groove;
 }
 
 section.project-two {
-    background-color: darkgreen;
     border-style: groove;
 }
 
 section.project-three {
-    background-color: darkslateblue;
     border-style: groove;
 }
 
-.navigation-2 {
-    background-color: cyan;
+address {
+    font-style: normal;
+}
+
+.social-media img {
+    width: 5%;
+    margin: 33px;
+}
+
+section.footer {
+    border-style: groove;
 }
 
 /*Media Query For Smaller Desktop Screens and Smaller */
