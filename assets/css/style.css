@@ -1,97 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 header {
-    z-index: 99999;
-    background-image: url("../images/white-background.jpeg");
-    border-style: groove;
+  z-index: 99999;
+  text-decoration: none;
+  border-bottom-width: 60px;
+  border-top-width: 30px;
+}
+
+.banner h1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: stretch;
+  margin-top: 30px;
+}
+
+.banner.id {
     display: flex;
-    justify-content: space-between;
-    align-items: center;    
+    align-items: baseline;
 }
 
-header {
-    text-decoration: none;
-}
-
-header nav {
-    text-align: right;
-    padding: 0px 50px 0px 50px;
-}
-
-header nav ul {
-    font-size: larger;
-    list-style: none;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    padding: 10px 15px;
-    font-size: 23px;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.banner.id img {
+  border-radius: 50%;
 }
 
 .hero {
-    background-image: url("../images/white-background.jpeg");
-    border-style: groove;
+  background-image: url("../images/white-background.jpeg");
 }
 
 section.run-buddy {
-    background-image: url("../images/white-background.jpeg");
-    background-size: cover;
-    border-style: groove;
+  background-image: url("../images/white-background.jpeg");
+  background-size: cover;
 }
 
 section.run-buddy img {
-    width: 13%;
+  width: 13%;
 }
 
 section.project-two {
-    background-image: url("../images/white-background.jpeg");
-    border-style: groove;
+  background-image: url("../images/white-background.jpeg");
+  border-style: groove;
 }
 
 section.project-three {
-    background-image: url("../images/white-background.jpeg");
-    border-style: groove;
+  background-image: url("../images/white-background.jpeg");
+  border-style: groove;
 }
 
 h2 {
-    font-size: 30px;
+  font-size: 30px;
 }
 p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .social-media img {
-    width: 5%;
-    margin: 33px;
+  width: 5%;
+  margin: 33px;
 }
 
 section.footer {
-    border-style: groove;
-    background-image: url("../images/white-background.jpeg");
-
+  border-style: groove;
+  background-image: url("../images/white-background.jpeg");
 }
 
 /*Media Query For Smaller Desktop Screens and Smaller */
 @media screen and (max-width: 700px) {
-    header {
-        position: auto;
-    }
+  header {
+    position: auto;
+  }
 }
