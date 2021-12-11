@@ -26,6 +26,8 @@ header {
   align-content: space-around;
   align-items: stretch;
   margin-top: 30px;
+  font-family: "Sofia", sans-serif;
+  font-size: 65px;
 }
 
 .banner.id {
@@ -33,16 +35,14 @@ header {
     align-items: baseline;
 }
 
-.banner.id img {
-  border-radius: 50%;
-}
+
 
 .hero {
-  background-image: url("../images/white-background.jpeg");
+  
 }
 
 section.run-buddy {
-  background-image: url("../images/white-background.jpeg");
+  
   background-size: cover;
 }
 
@@ -51,13 +51,12 @@ section.run-buddy img {
 }
 
 section.project-two {
-  background-image: url("../images/white-background.jpeg");
-  border-style: groove;
+
 }
 
 section.project-three {
-  background-image: url("../images/white-background.jpeg");
-  border-style: groove;
+  
+  
 }
 
 h2 {
@@ -77,8 +76,7 @@ address {
 }
 
 section.footer {
-  border-style: groove;
-  background-image: url("../images/white-background.jpeg");
+  
 }
 
 /*Media Query For Smaller Desktop Screens and Smaller */
