@@ -14,9 +14,23 @@ body {
 
 header {
   z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-position: 80%;
   text-decoration: none;
   border-bottom-width: 60px;
   border-top-width: 30px;
+  position: relative;
+
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
 }
 
 .banner h1 {
@@ -35,14 +49,9 @@ header {
     align-items: baseline;
 }
 
-
-
-
-
-
-.hero {
+/* .hero {
   
-}
+} */
 
 section.wet.nose.adooption {
   
@@ -53,14 +62,14 @@ section.run-buddy img {
   width: 13%;
 }
 
-section.project-two {
+/* section.project-two {
 
-}
+} */
 
-section.project-three {
+/* section.project-three {
   
   
-}
+} */
 
 h2 {
   font-size: 30px;
@@ -78,9 +87,9 @@ address {
   margin: 33px;
 }
 
-section.footer {
+/* section.footer {
   
-}
+} */
 
 /*Media Query For Smaller Desktop Screens and Smaller */
 @media screen and (max-width: 700px) {
